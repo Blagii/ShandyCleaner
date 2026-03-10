@@ -9,7 +9,7 @@ import systemRoutes from '../server/routes/system';
 import configRoutes from '../server/routes/config';
 import historyRoutes from '../server/routes/history';
 import { authMiddleware } from '../server/middleware/auth';
-import { initDb } from '../server/database/index';
+import { initDb } from '../server/database';
 import { initTemplates } from '../server/services/templateService';
 
 const app = express();
